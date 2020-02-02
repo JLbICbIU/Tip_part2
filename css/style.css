@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #181716;
+}
+
+nav {
+    background-color: #333;
+}
+
+.nav-ul {
+    text-align: center;
+    padding-left: 0;
+    margin: 0;
+}
+
+.nav-li {
+    display: inline-block;
+    position: relative;
+    font-family: Arial;
+}
+
+.nav-li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    width: 90px;
+}
+
+.nav-li a:hover {
+  background-color: #111;
+}
+
+.nav-active{
+  background-color: #4CAF50;
+}
+
+.main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+	justify-content: space-around;
+	min-height: 552px;
+    display: block;
+    color: aliceblue;
+}
+
+.main h1 {
+    text-align: center;
+}
+
+.main-maps {
+    display: block;
+    align-items: center;
+}
+
+footer{
+    margin-top:auto;
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+}
