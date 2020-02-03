@@ -10,7 +10,7 @@ $page = 'lab5' // current page name for nav-bar
     <title>ЛР5</title>
 </head>
 
-<body>
+<body vlink="green" alink="green" link="green">
     <header>
         <?php include "../blocks/nav-bar.php" ?>
     </header>
@@ -18,7 +18,7 @@ $page = 'lab5' // current page name for nav-bar
         <div class="main-text">
             <h1>Лабораторная работа №5</h1>
             <div>
-                <!-- <?php include "task123.php" ?> -->
+                <?php include "task.php" ?>
             </div>
         </div>
     </div>
