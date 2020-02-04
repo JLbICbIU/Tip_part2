@@ -5,7 +5,7 @@ class DbManager
     
     public function __construct()
     {
-        require_once('db.settings.php');
+        require('db.settings.php');
         $this->conn = new mysqli($host, $user, $pass, $db);
         if ($this->conn->connect_error) {
             die("Connection failed: ".$conn->connect_error);

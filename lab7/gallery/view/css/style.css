@@ -58,3 +58,13 @@ img {
 input {
     margin: 10px;
 }
+
+.main-image {
+    margin: auto;
+    width:70%;
+    padding: 10px;
+}
+
+.error {
+    color: red;
+}
